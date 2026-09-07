@@ -1,72 +1,137 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>隐私政策</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: #f7f9fc;
-            color: #333;
-            line-height: 1.7;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-        }
-        h1 {
-            text-align: center;
-            color: #222;
-            margin-bottom: 30px;
-            font-size: 26px;
-        }
-        h2 {
-            font-size: 18px;
-            margin: 24px 0 10px;
-            color: #444;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy</title>
+<style>
+  :root{
+    --bg:#fbfaf8; --card:#fff; --ink:#1b1a18; --dim:#5d5a55; --line:#e5e1da;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#14140f; --card:#1c1c17; --ink:#f2efe8; --dim:#a09b91; --line:#2e2e27;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  main{max-width:44rem; margin:0 auto; padding:3rem 1.25rem 5rem}
+  h1{font-size:1.9rem; line-height:1.2; margin:0 0 .35rem; letter-spacing:-.015em; text-wrap:balance}
+  .sub{color:var(--dim); font-size:.9rem; margin:0 0 2.5rem}
+  h2{font-size:1.05rem; margin:2.4rem 0 .6rem; letter-spacing:-.005em}
+  p,li{color:var(--ink)}
+  p{margin:0 0 .9rem}
+  ul{margin:0 0 .9rem; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  .lead{font-size:1.05rem}
+  .box{
+    background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:1rem 1.15rem; margin:1.2rem 0;
+  }
+  .box p:last-child{margin-bottom:0}
+  code{
+    font:.86em ui-monospace,SFMono-Regular,Menlo,monospace;
+    background:var(--bg); border:1px solid var(--line); border-radius:4px; padding:.1em .35em;
+  }
+  a{color:var(--ink); text-underline-offset:2px}
+  footer{margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+    color:var(--dim); font-size:.85rem}
+</style>
 </head>
 <body>
-<div class="container">
-    <h1>隐私政策</h1>
+<main>
 
-    <h2>1. 信息收集</h2>
-    <p>我们仅收集为保障产品正常运行所必要的信息，不会在未获得您许可的情况下获取额外个人数据。</p>
+<h1>Privacy Policy</h1>
+<p class="sub">Effective 7 September 2026</p>
 
-    <h2>2. 信息使用</h2>
-    <p>收集到的数据仅用于提供、维护和优化我们的服务，不会将您的个人信息出售给第三方。</p>
+<p class="lead">These practice-exam apps do not collect your data. There is no
+account, no server, and no backend. Everything you do stays in the browser on
+your own device.</p>
 
-    <h2>3. 信息共享</h2>
-    <p>除法律法规要求外，未经您同意，我们不会向外部机构共享您的个人信息。</p>
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> We operate no server that receives data from the
+app, so there is nothing for us to collect, store, sell, or share. We cannot see
+your answers, your scores, or that you used the app at all.</p>
 
-    <h2>4. 数据安全</h2>
-    <p>我们采用行业标准的安全措施保护您的数据，降低信息泄露、丢失与篡改风险。</p>
+<h2>What the app stores on your device</h2>
+<p>To remember where you left off, the app writes to your browser's
+<code>localStorage</code> under a key beginning <code>qb.v1.</code> That record
+holds:</p>
+<ul>
+  <li>which questions you have answered and whether each was right</li>
+  <li>your position in the question bank, daily count, and streak</li>
+  <li>your list of missed questions</li>
+  <li>your chosen exam date, plan, theme, and text size</li>
+</ul>
+<p>This never leaves your device. It is not transmitted anywhere, and it is not
+synchronised between your devices or browsers.</p>
 
-    <h2>5. 用户权利</h2>
-    <p>您有权查询、更正或申请删除您的个人数据，可通过预留联系方式与我们沟通。</p>
+<h2>What the app does not do</h2>
+<ul>
+  <li>No cookies</li>
+  <li>No analytics or tracking of any kind, first- or third-party</li>
+  <li>No advertising and no advertising identifiers</li>
+  <li>No access to location, camera, microphone, contacts, or files</li>
+  <li>No account, sign-in, or email collection</li>
+</ul>
 
-    <h2>6. 政策更新</h2>
-    <p>本隐私政策如有变更，我们将在页面上发布新版本，继续使用服务即视为接受更新后的条款。</p>
+<h2>The one outside request</h2>
+<p>The page loads its typefaces from Google Fonts
+(<code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code>). Like any
+request to any website, this lets Google see your IP address and browser
+user-agent. Nothing about your answers or progress is included. Google's
+handling of that request is covered by
+<a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+This is the only request the app makes to any outside server; every other
+feature works with the network switched off.</p>
 
-    <h2>7. 联系我们</h2>
-    <p>如果您对本隐私政策存在疑问，请发送邮件联系我们。</p>
+<h2>Hosting</h2>
+<p>Where the app is served over the web rather than opened as a local file, the
+hosting provider records standard web-server access logs (IP address, time,
+page requested, user-agent) as part of delivering the page. We do not use those
+logs to build any profile of you, and we do not combine them with anything
+else.</p>
 
-    <p style="margin-top:40px;text-align:right;">更新日期：2026年09月07日</p>
+<h2>Children</h2>
+<p>These are practice materials for professional and academic certification
+exams. They are not directed at children under 13, and we knowingly collect no
+information from anyone — children included.</p>
+
+<h2>Your rights</h2>
+<p>Rights of access, correction, portability, and erasure apply to data a
+company holds about you. We hold none, so there is nothing for us to hand over
+or delete.</p>
+<div class="box">
+  <p><strong>To erase everything the app has stored:</strong> open
+  <em>Settings → Data → Clear progress</em> inside the app, or clear your
+  browser's site data. That deletes it permanently. There is no copy on our
+  side, so it cannot be recovered — and it does not need to be requested from
+  us.</p>
 </div>
+
+<h2>Not affiliated with any certifying body</h2>
+<p>These are independent practice questions. They are not official materials
+and carry no endorsement from any certification, testing, or licensing
+organisation. All trademarks and certification names belong to their respective
+owners and are used only to identify the subject matter of the practice
+questions. Where a question conflicts with the official materials, the official
+materials govern.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the revised version will be posted at this address
+with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <strong>[ADD YOUR CONTACT EMAIL HERE]</strong></p>
+
+<footer>
+  Last updated 7 September 2026.
+</footer>
+
+</main>
 </body>
 </html>
